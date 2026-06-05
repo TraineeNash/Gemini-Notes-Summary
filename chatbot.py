@@ -23,7 +23,6 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
-
 client = genai.Client(api_key="AQ.Ab8RN6LqZGeilSycRrqaJsk_OgQD-Sj-6QI5yn7Q8TMJ0j4Svg")
 
 # set the address/route
